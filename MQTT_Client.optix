@@ -1,0 +1,60 @@
+Project:
+ Name: MQTT_Client
+ GUID: 4a8be42c13942389a3b1cba4fc56b091
+ ProjectNamespaceIndex: 7
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.6
+ CoreVersion: 4.2
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 5.0
+  3:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 18.1
+  4:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 7.1
+  5:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 3.1
+  6:
+   Uri: 'urn:FTOptix:Retentivity'
+   Module: FTOptix.Retentivity
+   Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:DataLogger'
+   Module: FTOptix.DataLogger
+   Version: 2.0
+  9:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  10:
+   Uri: 'urn:FTOptix:MQTTClient'
+   Module: FTOptix.MQTTClient
+   Version: 3.0
+  11:
+   Uri: 'urn:FTOptix:SQLiteStore'
+   Module: FTOptix.SQLiteStore
+   Version: 1.0
+ Statistics:
+  TotalNodeCount: 220
+  Objects: 91
+  ObjectTypes: 1
+  Variables: 128
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 21
+  ReferenceTypes: 0
+  Files: 24
+ Nodes:
+ - File: Nodes/MQTT_Client.yaml

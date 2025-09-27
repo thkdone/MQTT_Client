@@ -1,0 +1,10 @@
+Name: DataToRecevie
+Id: g=15c0dbb802bfc12ff4fa6f0661e5841c
+Type: FolderType
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
