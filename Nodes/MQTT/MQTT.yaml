@@ -24,12 +24,15 @@ Children:
   - Name: UserIdentityType
     Type: BaseDataVariableType
     DataType: UserIdentityTypeEnum
+    Value: 1
   - Name: SSLTLSEnabled
     Type: BaseDataVariableType
     DataType: Boolean
+    Value: true
   - Name: ValidateBrokerCertificate
     Type: BaseDataVariableType
     DataType: Boolean
+    Value: true
   - Class: Reference
     Target: ns=10;i=12
     Direction: Forward
@@ -116,3 +119,19 @@ Children:
       Type: PropertyType
       DataType: Duration
       Value: "0:00:00:05.0000000"
+  - Name: ClientCertificateFile
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=7;%PROJECTDIR%/PKI/Own/Certs/client.crt"
+  - Name: ClientPrivateKeyFile
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: "ns=7;%PROJECTDIR%/PKI/Own/Certs/client.key"
+  - Name: Username
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "User1"
+  - Name: Password
+    Type: BaseDataVariableType
+    DataType: Password
+    Value: "12345678"

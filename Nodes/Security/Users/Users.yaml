@@ -1,3 +1,63 @@
 Name: Users
 Id: g=8cdfe95c558e909385d4fe7ddc9a2655
 Type: UsersCategoryFolder
+Children:
+- Name: User1
+  Id: g=742a73c646d6255fa1fa35ea30e79d69
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=db7fdd2527d08ee4c3466c192d306e7f
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Children:
+    - Name: Hash
+      Id: g=b65965ee2e8c64dbf434078d6f90ece6
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [219,251,48,48,204,215,103,112,60,155,89,130,255,87,92,53,62,128,224,74,6,73,99,182,31,206,28,182,140,11,129,127],
+         "Salt": [87,203,191,135,44,62,219,223,110,109,92,87,48,192,119,115,249,78,122,109,204,64,26,215,235,112,251,54,66,32,214,58]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=087efad098bb205adb91b48753f71734
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2025-10-05T16:24:24.8492896"
+    - Name: History
+      Id: g=fb44f1e5faab2592bbb9431cfcf2a81f
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[219,251,48,48,204,215,103,112,60,155,89,130,255,87,92,53,62,128,224,74,6,73,99,182,31,206,28,182,140,11,129,127],"Salt":[87,203,191,135,44,62,219,223,110,109,92,87,48,192,119,115,249,78,122,109,204,64,26,215,235,112,251,54,66,32,214,58]}}]
+  - Name: LocaleId
+    Id: g=0f97d7724727cd2a2f141e9bc79ec986
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=eaa6f8d8e0847ea1d073ea4ea4c6d081
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=75fca01e7694d12668f19ab925b6ffb2
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
